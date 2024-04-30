@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Composable</string>
+    <string name="title_alertDialog">Assinatura anual</string>
+    <string name="text_alertDialog">Deseja confirmar a assinatura do serviço por R$379,90? A renovação será automática</string>
 </resources>

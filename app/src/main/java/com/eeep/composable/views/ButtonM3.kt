@@ -11,7 +11,6 @@ import androidx.compose.ui.Modifier
 
 @Composable
 fun ButtonM3(){
-    Column {
         Column(
             modifier = Modifier.fillMaxSize(),
             verticalArrangement = Arrangement.Center
@@ -21,9 +20,8 @@ fun ButtonM3(){
                 onClick = {
                 }){
                 Text(text = "ADicionar")
-
             }
         }
 
-    }
+
 }

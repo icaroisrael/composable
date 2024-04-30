@@ -11,6 +11,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.eeep.composable.ui.theme.ComposableTheme
+import com.eeep.composable.views.AlertDialogM3
+import com.eeep.composable.views.ExposedDropDownMenuBoxM3
+import com.eeep.composable.views.SnackbarM3
+import com.eeep.composable.views.TextFieldM3
 import com.eeep.ocorrencia1.views.ButtonM3
 
 class MainActivity : ComponentActivity() {
@@ -23,7 +27,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    ButtonM3()
+                    ExposedDropDownMenuBoxM3()
                 }
             }
         }
@@ -36,6 +40,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun GreetingPreview() {
     ComposableTheme {
-        ButtonM3()
+        ExposedDropDownMenuBoxM3()
     }
 }
+
